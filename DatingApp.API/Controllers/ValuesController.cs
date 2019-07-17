@@ -19,7 +19,7 @@ namespace DatingApp.API.Controllers
             this._context = context;
 
         }
-        // GET api/values
+        // GET api/valuescd
         [HttpGet]
         public IActionResult GetValue()
         {
