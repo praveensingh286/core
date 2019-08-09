@@ -12,3 +12,17 @@ E:\Project\practice\DotnetCore\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\D
 E:\Project\practice\DotnetCore\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.RazorTargetAssemblyInfo.cache
 E:\Project\practice\DotnetCore\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.dll
 E:\Project\practice\DotnetCore\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.2\DatingApp.API.pdb
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\bin\Debug\netcoreapp2.2\DatingApp.API.deps.json
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\bin\Debug\netcoreapp2.2\DatingApp.API.runtimeconfig.json
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\bin\Debug\netcoreapp2.2\DatingApp.API.runtimeconfig.dev.json
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\bin\Debug\netcoreapp2.2\DatingApp.API.dll
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\bin\Debug\netcoreapp2.2\DatingApp.API.pdb
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.csprojAssemblyReference.cache
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.csproj.CoreCompileInputs.cache
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cache
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.RazorAssemblyInfo.cs
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.AssemblyInfoInputs.cache
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.AssemblyInfo.cs
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.RazorTargetAssemblyInfo.cache
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.dll
+D:\Praveen\Temporary\dotnetCore_angular\datingapp.api\obj\Debug\netcoreapp2.2\DatingApp.API.pdb
