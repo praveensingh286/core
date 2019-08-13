@@ -27,6 +27,8 @@ namespace DatingApp.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
+             if(!ModelState.IsValid)
+                return BadRequest();
             userForRegisterDto.username = userForRegisterDto.username.ToLower();
             if (await _repo.UserExist(userForRegisterDto.username))
                 return BadRequest("Username already axists");
@@ -36,9 +38,12 @@ namespace DatingApp.API.Controllers
 
 
         }
-        [HttpPost]
+        [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
+            try{
+
+           
             var userFromRepo = await _repo.Login(userForLoginDto.username, userForLoginDto.password);
              if(userFromRepo==null)
                return Unauthorized();
@@ -46,7 +51,7 @@ namespace DatingApp.API.Controllers
             new Claim(ClaimTypes.NameIdentifier,userFromRepo.Id.ToString()),
             new Claim(ClaimTypes.Name,userFromRepo.Username)
             };
-            var key= new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetSection("AppSetting.Token").Value));
+            var key= new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));
             var creds=new SigningCredentials(key,SecurityAlgorithms.HmacSha512Signature);
             var tokenDecreptor= new SecurityTokenDescriptor{
                 Subject=new ClaimsIdentity(claims),
@@ -58,6 +63,11 @@ namespace DatingApp.API.Controllers
             return Ok(new {
                 token=tokenHandler.WriteToken(token)
             });
+             }
+            catch(Exception e){
+                var a=e;
+                return StatusCode(500);
+            }
         }
     }
 }
