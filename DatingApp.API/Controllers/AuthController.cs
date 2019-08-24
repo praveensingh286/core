@@ -27,6 +27,8 @@ namespace DatingApp.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
+             if(!ModelState.IsValid)
+                return BadRequest();
             userForRegisterDto.username = userForRegisterDto.username.ToLower();
             if (await _repo.UserExist(userForRegisterDto.username))
                 return BadRequest("Username already axists");
@@ -63,6 +65,7 @@ namespace DatingApp.API.Controllers
             });
              }
             catch(Exception e){
+                var a=e;
                 return StatusCode(500);
             }
         }

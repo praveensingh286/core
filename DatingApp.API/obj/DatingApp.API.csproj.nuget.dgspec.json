@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\practice\\DotnetCore\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "D:\\Praveen\\Temporary\\dotnetCore_angular\\datingapp.api\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "E:\\Project\\practice\\DotnetCore\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "D:\\Praveen\\Temporary\\dotnetCore_angular\\datingapp.api\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\practice\\DotnetCore\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "D:\\Praveen\\Temporary\\dotnetCore_angular\\datingapp.api\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "E:\\Project\\practice\\DotnetCore\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-        "packagesPath": "C:\\Users\\praveen\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\practice\\DotnetCore\\DatingApp\\DatingApp.API\\obj\\",
+        "projectPath": "D:\\Praveen\\Temporary\\dotnetCore_angular\\datingapp.api\\DatingApp.API.csproj",
+        "packagesPath": "C:\\Users\\Praveen Kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\Praveen\\Temporary\\dotnetCore_angular\\datingapp.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\praveen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Praveen Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
